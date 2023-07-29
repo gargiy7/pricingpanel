@@ -1,0 +1,119 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+/*   height: 100%;
+  width: 100%; */
+  box-sizing: border-box;
+}
+body{
+  background-color:#00CED1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pricing-panel{
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  text-align:  center;
+  text-transform: uppercase ;
+}
+
+.pricing-strat{
+  border-bottom:  2px solid #00CED1;
+}
+.pricing-strat:last-child {
+  border-bottom:  none;
+}
+
+.pic-1{
+  margin-bottom: 25px;
+/*   width: 100%; */
+}
+
+h2{
+  color:  #0000FF  ;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.prod-desc{
+  margin: 50px 0 25px ;
+  border-top: 1px solid #e1f1ff;
+  border-bottom: 1.5px solid #e1f1ff;
+}
+
+.price{
+  color: #016ff9;
+  display: block;
+  font-size: 32px; 
+}
+
+a{
+  border: 1px solid #FF00FF ;
+  border-radius: 10px;
+  color: #F0FFF0 ;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  background-color: #2F4F4F;
+  transition: 400ms ease-in-out;
+}
+
+a:hover , a:focus {
+  background-color: #DAA520 ;
+  color: #2F4F4F;
+}
