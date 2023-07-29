@@ -75,9 +75,6 @@ body{
 .pricing-strat{
   border-bottom:  2px solid #00CED1;
 }
-.pricing-strat:last-child {
-  border-bottom:  none;
-}
 
 .pic-1{
   margin-bottom: 25px;
