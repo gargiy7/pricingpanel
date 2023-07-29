@@ -1,0 +1,1 @@
+The classical Pricing Panel created using Vanilla JavaScript, CSS & HTML.
